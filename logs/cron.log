@@ -1,0 +1,22 @@
+🚀 AWS Free Tier Usage Monitor
+
+⚠️ Cost data is not yet available. Please wait a bit and try again.
+  AWS Free Tier Cost   
+        Report         
+┏━━━━━━━━━━┳━━━━━━━━━━┓
+┃ Service  ┃ Cost ($) ┃
+┡━━━━━━━━━━╇━━━━━━━━━━┩
+│ 💰 TOTAL │     0.00 │
+└──────────┴──────────┘
+
+🛎️ Alert Status:
+✅ All good! Current cost is $0.00, under threshold $0.01
+
+🖥️  EC2 Running Hours: 0 / 750 hours (Free Tier)
+📦  S3 Storage Used: 0.0 GB / 5 GB (Free Tier)
+
+🧠 Lambda Compute Time: 0.0 GB-seconds / 400,000 GB-sec (Free Tier)
+🗃️  RDS usage: 0 hours
+
+🚨 Alert Summary:
+✅ All usage within safe limits.
