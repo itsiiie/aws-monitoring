@@ -1,8 +1,8 @@
 {
-  "date": "2025-08-05 21:54:59",
-  "cost_data": [],
+  "timestamp": "2025-08-05 21:54:59",
   "total_cost": 0.0,
-  "usage": {
+  "cost_by_service": [],
+  "usage_data": {
     "EC2": "0 / 750 hrs",
     "S3": "0.00 / 5 GB",
     "Lambda": "0.0 / 400,000 GB-sec",

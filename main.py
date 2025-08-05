@@ -1,18 +1,15 @@
 from services.cost_usage import fetch_cost_by_service
 from services.alerts import check_threshold
 from utils.formatter import print_cost_report
-from services.usage_tracker import get_s3_storage_usage
-from services.usage_tracker import get_ec2_running_hours, get_rds_running_hours
+from services.usage_tracker import (
+    get_s3_storage_usage,
+    get_ec2_running_hours,
+    get_rds_running_hours,
+    get_lambda_usage
+)
 from utils.report_generator import save_reports
-from services.usage_tracker import get_lambda_usage
 from utils.alert import load_thresholds, check_thresholds
 from utils.discord_notify import send_discord_alert
-
-# Example usage after alert is triggered:
-
-
-
-
 from dotenv import load_dotenv
 import os
 
@@ -39,14 +36,12 @@ def main():
     lambda_usage = get_lambda_usage(region)
     print(f"\n🧠 Lambda Compute Time: {lambda_usage} GB-seconds / 400,000 GB-sec (Free Tier)")
 
-    
     rds_hours = get_rds_running_hours(region)
     print(f"🗃️  RDS usage: {rds_hours} hours")
     if rds_hours > 750:
         print("⚠️  Warning: RDS usage exceeds Free Tier limit (750 hours)")
 
-
-        # Prepare usage data for report
+    # Prepare usage data for report
     usage_data = {
         "EC2": f"{ec2_hours} / 750 hrs",
         "S3": f"{s3_gb:.2f} / 5 GB",
@@ -54,14 +49,9 @@ def main():
         "RDS": f"{rds_hours} / 750 hrs"
     }
 
-    # Save reports
-    save_reports(cost_data, total, usage_data)
-
-    
-# Load thresholds from config
+    # Load thresholds from config
     thresholds = load_thresholds()
 
-# Run alert checks
     # Run alert checks
     alerts = check_thresholds(usage_data, total, thresholds)
 
@@ -69,24 +59,15 @@ def main():
     if alerts:
         for a in alerts:
             print(a)
-    
         alert_message = "\n".join(alerts)
-        send_discord_alert(f"⚠️ AWS Free Tier Alert(s) Triggered:\n\n{alert_message}\n\nCurrent Cost: ${total:.2f}")
-
+        send_discord_alert(
+            f"⚠️ AWS Free Tier Alert(s) Triggered:\n\n{alert_message}\n\nCurrent Cost: ${total:.2f}"
+        )
     else:
         print("✅ All usage within safe limits.")
 
-    
-
-    
-
-        
-        
-
-
-    
-
-
+    # Save reports after alerts are generated
+    save_reports(cost_data, total, usage_data, alerts)
 
 if __name__ == "__main__":
     main()
