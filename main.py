@@ -6,6 +6,11 @@ from services.usage_tracker import get_ec2_running_hours, get_rds_running_hours
 from utils.report_generator import save_reports
 from services.usage_tracker import get_lambda_usage
 from utils.alert import load_thresholds, check_thresholds
+from utils.discord_notify import send_discord_alert
+
+# Example usage after alert is triggered:
+
+
 
 
 from dotenv import load_dotenv
@@ -57,14 +62,21 @@ def main():
     thresholds = load_thresholds()
 
 # Run alert checks
+    # Run alert checks
     alerts = check_thresholds(usage_data, total, thresholds)
 
     print("\n🚨 Alert Summary:")
     if alerts:
         for a in alerts:
             print(a)
+    
+        alert_message = "\n".join(alerts)
+        send_discord_alert(f"⚠️ AWS Free Tier Alert(s) Triggered:\n\n{alert_message}\n\nCurrent Cost: ${total:.2f}")
+
     else:
         print("✅ All usage within safe limits.")
+
+    
 
     
 

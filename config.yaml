@@ -1,5 +1,5 @@
 thresholds:
-  ec2_hours: 600
+  ec2_hours: -1
   s3_gb: 4.0
   lambda_gb_sec: 320000
   rds_hours: 600
