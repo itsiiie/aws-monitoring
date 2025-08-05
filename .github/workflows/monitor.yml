@@ -1,0 +1,43 @@
+name: AWS Free Tier Monitor
+
+on:
+  schedule:
+    - cron: '30 6 * * *'  # Runs daily at 12:00 PM IST (6:30 UTC)
+  workflow_dispatch:      # Also lets you run manually from GitHub UI
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+
+    env:
+      AWS_REGION: us-east-1
+      ALERT_THRESHOLD: 0.01  # Customize as needed
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 🔧 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🧪 Run AWS Monitor Script
+        run: python main.py
+
+      - name: 💾 Upload Report Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: usage-reports
+          path: reports/
+
+    # Give AWS credentials from GitHub secrets
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
