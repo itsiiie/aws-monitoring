@@ -1,12 +1,12 @@
 from services.cost_usage import fetch_cost_by_service
 from services.alerts import check_threshold
-from services.usage_tracker import get_ec2_running_hours
 from utils.formatter import print_cost_report
 from services.usage_tracker import get_s3_storage_usage
 from services.usage_tracker import get_ec2_running_hours, get_rds_running_hours
 from utils.report_generator import save_reports
 from services.usage_tracker import get_lambda_usage
-from services.usage_tracker import get_lambda_usage
+from utils.alert import load_thresholds, check_thresholds
+
 
 from dotenv import load_dotenv
 import os
@@ -51,6 +51,21 @@ def main():
 
     # Save reports
     save_reports(cost_data, total, usage_data)
+
+    
+# Load thresholds from config
+    thresholds = load_thresholds()
+
+# Run alert checks
+    alerts = check_thresholds(usage_data, total, thresholds)
+
+    print("\n🚨 Alert Summary:")
+    if alerts:
+        for a in alerts:
+            print(a)
+    else:
+        print("✅ All usage within safe limits.")
+
     
 
         

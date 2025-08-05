@@ -1,0 +1,6 @@
+thresholds:
+  ec2_hours: 600
+  s3_gb: 4.0
+  lambda_gb_sec: 320000
+  rds_hours: 600
+  cost: 0.01
