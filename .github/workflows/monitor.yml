@@ -2,7 +2,8 @@ name: AWS Free Tier Monitor
 
 on:
   schedule:
-    - cron: "30 6 * * *" # Runs daily at 12:00 PM IST (6:30 UTC)
+    - cron: "0 * * * *" # runs at minute 0 of every hour
+  # Runs daily at 12:00 PM IST (6:30 UTC)
   workflow_dispatch: # Allows manual trigger
 
 jobs:
