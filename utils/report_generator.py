@@ -13,7 +13,7 @@ def save_reports(cost_data, total_cost, usage_data, alerts=None, report_dir="rep
         writer = csv.writer(csvfile)
         writer.writerow(["Service", "Cost ($)"])
         for item in cost_data:
-            writer.writerow([item["Service"], item["Cost"]])
+            writer.writerow([item[0], item[1]])
         writer.writerow(["TOTAL", total_cost])
 
     # Save dated JSON report
