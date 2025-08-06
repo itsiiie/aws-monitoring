@@ -6,6 +6,9 @@ on:
     - cron: "0 * * * *"
   workflow_dispatch:        # ✅ Manual run from GitHub UI
 
+permissions:
+  contents: write           # ✅ Required to commit back to the repo
+
 jobs:
   run-monitor:
     runs-on: ubuntu-latest
@@ -34,8 +37,14 @@ jobs:
       - name: 🧪 Run AWS Monitor Script
         run: python main.py
 
-      - name: 💾 Upload Report Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: usage-reports
-          path: reports/
+      - name: 🔧 Configure Git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: 💾 Commit & Push Updated Reports
+        run: |
+          git pull origin main
+          git add reports/
+          git commit -m "📊 Update usage reports [skip ci]" || echo "No changes to commit"
+          git push origin main
