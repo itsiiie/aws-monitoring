@@ -1,8 +1,6 @@
 import boto3
-from datetime import datetime
 from datetime import datetime, timezone
-
-from datetime import datetime, timedelta
+import datetime
 
 def get_ec2_running_hours(region):
     ec2 = boto3.client('ec2', region_name=region)
@@ -43,12 +41,6 @@ def get_s3_storage_usage():
     total_gb = round(total_size_bytes / (1024 ** 3), 2)
     return total_gb
 
-
-
-
-
-
-
 def get_rds_running_hours(region):
     client = boto3.client('rds', region_name=region)
     total_hours = 0
@@ -65,40 +57,33 @@ def get_rds_running_hours(region):
 
 
 def get_lambda_usage(region):
-    import boto3
-    import datetime
-
     client = boto3.client('cloudwatch', region_name=region)
-
-    # Get current month range
     now = datetime.datetime.utcnow()
-    start = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
-    end = now
+    start_time = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    end_time = now
 
-    metrics = client.get_metric_data(
-        MetricDataQueries=[
+    response = client.get_metric_statistics(
+        Namespace='AWS/Lambda',
+        MetricName='Duration',
+        Dimensions=[
             {
-                'Id': 'lambdaComputeUsage',
-                'MetricStat': {
-                    'Metric': {
-                        'Namespace': 'AWS/Lambda',
-                        'MetricName': 'Duration',
-                        'Dimensions': [{'Name': 'FunctionName', 'Value': 'ALL'}]
-                    },
-                    'Period': 86400,  # Daily
-                    'Stat': 'Average'
-                },
-                'ReturnData': True,
-            }
+                'Name': 'FunctionName',
+                'Value': 'ALL'
+            },
         ],
-        StartTime=start,
-        EndTime=end
+        StartTime=start_time,
+        EndTime=end_time,
+        Period=3600,
+        Statistics=['Sum'],
+        Unit='Milliseconds'
     )
 
-    # Currently, AWS CloudWatch does not support metric math across ALL Lambda functions.
-    # We’ll simulate a single metric view here. For real app, you’d need to query each function individually.
-
-    # 👇 Workaround: Summing known values — we'll return 0.0 for demo/fallback
-    compute_gb_seconds = 0.0
-
+    total_duration_ms = 0
+    if 'Datapoints' in response:
+        for datapoint in response['Datapoints']:
+            total_duration_ms += datapoint['Sum']
+    
+    total_duration_sec = total_duration_ms / 1000
+    compute_gb_seconds = total_duration_sec * 0.125
+    
     return round(compute_gb_seconds, 2)
