@@ -197,7 +197,9 @@
 
           const costBody = document.querySelector("#costTable tbody");
           costBody.innerHTML = "";
-          Object.entries(data.cost_by_service).forEach(([svc, cost]) => {
+          // Fix: Iterate over the list of lists correctly
+          data.cost_by_service.forEach((item) => {
+            const [svc, cost] = item;
             costBody.innerHTML += `<tr><td>${svc}</td><td>$${cost.toFixed(
               2
             )}</td></tr>`;
