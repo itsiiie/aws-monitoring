@@ -77,4 +77,3 @@ def check_thresholds(usage_data, total_cost, thresholds):
         alerts.append(f"⚠️ AWS billing exceeded threshold! Current: ${total_cost:.2f}, Threshold: ${thresholds['cost']:.2f}")
 
     return alerts
-
