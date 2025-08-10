@@ -1,10 +1,9 @@
 import boto3
-from datetime import datetime, timezone
-import datetime
+from datetime import datetime, timezone, timedelta
 
 def get_ec2_running_hours(region):
     ec2 = boto3.client('ec2', region_name=region)
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
 
     response = ec2.describe_instances()
     total_hours = 0
@@ -12,7 +11,7 @@ def get_ec2_running_hours(region):
     for reservation in response['Reservations']:
         for instance in reservation['Instances']:
             if instance['State']['Name'] == 'running':
-                launch_time = instance['LaunchTime'].replace(tzinfo=None)
+                launch_time = instance['LaunchTime']
                 run_time = now - launch_time
                 hours = run_time.total_seconds() / 3600
                 total_hours += hours
@@ -55,10 +54,9 @@ def get_rds_running_hours(region):
 
     return round(total_hours, 2)
 
-
 def get_lambda_usage(region):
     client = boto3.client('cloudwatch', region_name=region)
-    now = datetime.datetime.utcnow()
+    now = datetime.now(timezone.utc)
     start_time = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
     end_time = now
 
