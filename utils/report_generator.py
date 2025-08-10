@@ -40,9 +40,10 @@ def save_reports(cost_data, total_cost, usage_data, alerts=None, report_dir="rep
     # Save latest cost-only report
     latest_cost_path = os.path.join(report_dir, "latest_cost_report.json")
     with open(latest_cost_path, "w") as f:
+        # Fix: Consistent key for total cost
         json.dump({
             "cost_data": cost_data,
-            "total": total_cost
+            "total_cost": total_cost
         }, f, indent=2)
 
     # Save a full combined latest report (for dashboard)
