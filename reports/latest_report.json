@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-08-18 02:52:05",
+  "timestamp": "2025-08-18 03:55:40",
   "total_cost": 0.0,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
-      0.0
-    ],
-    [
-      "Amazon Simple Storage Service",
       -0.0
     ],
     [
-      "AmazonCloudWatch",
+      "Amazon Simple Storage Service",
       0.0
+    ],
+    [
+      "AmazonCloudWatch",
+      -0.0
     ],
     [
       "Tax",
