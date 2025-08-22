@@ -1,5 +1,5 @@
 {
-  "date": "2025-08-22 04:10:47",
+  "date": "2025-08-22 05:09:49",
   "cost_data": [
     [
       "AWS Cost Explorer",
@@ -11,7 +11,7 @@
     ],
     [
       "AmazonCloudWatch",
-      -0.0
+      0.0
     ],
     [
       "Tax",
