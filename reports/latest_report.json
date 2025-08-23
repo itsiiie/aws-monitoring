@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-23 13:16:56",
+  "timestamp": "2025-08-23 14:07:25",
   "total_cost": 0.0,
   "cost_by_service": [
     [
@@ -8,7 +8,7 @@
     ],
     [
       "Amazon Simple Storage Service",
-      0.0
+      -0.0
     ],
     [
       "AmazonCloudWatch",
