@@ -1,13 +1,13 @@
 {
-  "date": "2025-08-24 00:47:24",
+  "date": "2025-08-24 02:43:02",
   "cost_data": [
     [
       "AWS Cost Explorer",
-      -0.0
+      0.0
     ],
     [
       "Amazon Simple Storage Service",
-      0.0
+      -0.0
     ],
     [
       "AmazonCloudWatch",
