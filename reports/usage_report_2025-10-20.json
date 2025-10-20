@@ -1,23 +1,6 @@
 {
-  "date": "2025-10-20 13:22:21",
-  "cost_data": [
-    [
-      "AWS Cost Explorer",
-      0.0
-    ],
-    [
-      "Amazon Simple Storage Service",
-      0.0
-    ],
-    [
-      "AmazonCloudWatch",
-      0.0
-    ],
-    [
-      "Tax",
-      0.0
-    ]
-  ],
+  "date": "2025-10-20 14:08:17",
+  "cost_data": [],
   "total_cost": 0.0,
   "usage": {
     "EC2": "0 / 750 hrs",
