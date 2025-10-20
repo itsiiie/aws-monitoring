@@ -1,7 +1,24 @@
 {
-  "timestamp": "2025-10-20 18:16:02",
+  "timestamp": "2025-10-20 19:01:43",
   "total_cost": 0.0,
-  "cost_by_service": [],
+  "cost_by_service": [
+    [
+      "AWS Cost Explorer",
+      0.0
+    ],
+    [
+      "Amazon Simple Storage Service",
+      0.0
+    ],
+    [
+      "AmazonCloudWatch",
+      0.0
+    ],
+    [
+      "Tax",
+      0.0
+    ]
+  ],
   "usage_data": {
     "EC2": "0 / 750 hrs",
     "S3": "0.00 / 5 GB",
