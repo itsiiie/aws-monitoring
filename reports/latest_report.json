@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-11-21 19:08:07",
+  "timestamp": "2025-11-21 20:10:15",
   "total_cost": 0.0,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
-      0.0
+      -0.0
     ],
     [
       "Amazon Simple Storage Service",
