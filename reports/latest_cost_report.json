@@ -1,21 +1,4 @@
 {
-  "cost_data": [
-    [
-      "AWS Cost Explorer",
-      0.0
-    ],
-    [
-      "Amazon Simple Storage Service",
-      -0.0
-    ],
-    [
-      "AmazonCloudWatch",
-      0.0
-    ],
-    [
-      "Tax",
-      0.0
-    ]
-  ],
+  "cost_data": [],
   "total_cost": 0.0
 }
