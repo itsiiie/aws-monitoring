@@ -1,4 +1,17 @@
 {
-  "cost_data": [],
+  "cost_data": [
+    [
+      "Amazon Simple Storage Service",
+      0.0
+    ],
+    [
+      "AmazonCloudWatch",
+      0.0
+    ],
+    [
+      "Tax",
+      0.0
+    ]
+  ],
   "total_cost": 0.0
 }
