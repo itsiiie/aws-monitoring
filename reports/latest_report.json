@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-15 07:15:19",
+  "timestamp": "2025-12-15 08:16:15",
   "total_cost": 0.0,
   "cost_by_service": [
     [
@@ -20,7 +20,7 @@
     ]
   ],
   "usage_data": {
-    "EC2": "0.7 / 750 hrs",
+    "EC2": "1.71 / 750 hrs",
     "S3": "0.00 / 5 GB",
     "Lambda": "0.0 / 400,000 GB-sec",
     "RDS": "0 / 750 hrs"
