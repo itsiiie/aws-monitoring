@@ -6,11 +6,11 @@
     ],
     [
       "AWS Data Transfer",
-      -3.37e-08
+      -7.79e-08
     ],
     [
       "EC2 - Other",
-      3.17e-08
+      7.48e-08
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
@@ -33,5 +33,5 @@
       0.0
     ]
   ],
-  "total_cost": -1.999999999999998e-09
+  "total_cost": -3.100000000000008e-09
 }
