@@ -1,10 +1,10 @@
 Service,Cost ($)
 AWS Cost Explorer,0.0
 AWS Data Transfer,-7.79e-08
-EC2 - Other,7.48e-08
+EC2 - Other,7.38e-08
 Amazon Elastic Compute Cloud - Compute,0.0
 Amazon Simple Storage Service,0.0
 Amazon Virtual Private Cloud,0.0
 AmazonCloudWatch,0.0
 Tax,0.0
-TOTAL,-3.100000000000008e-09
+TOTAL,-4.100000000000004e-09
