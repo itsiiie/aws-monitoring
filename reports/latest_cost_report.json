@@ -10,11 +10,11 @@
     ],
     [
       "EC2 - Other",
-      1.868e-07
+      1.858e-07
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
-      -0.0
+      0.0
     ],
     [
       "Amazon Simple Storage Service",
@@ -33,5 +33,5 @@
       0.0
     ]
   ],
-  "total_cost": -8.900000000000007e-09
+  "total_cost": -9.900000000000003e-09
 }
