@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-24 17:08:06",
+  "date": "2025-12-24 18:14:21",
   "cost_data": [
     [
       "AWS Cost Explorer",
@@ -11,15 +11,15 @@
     ],
     [
       "EC2 - Other",
-      1.758e-07
+      1.748e-07
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
-      -0.0
+      0.0
     ],
     [
       "Amazon Simple Storage Service",
-      0.0
+      -0.0
     ],
     [
       "Amazon Virtual Private Cloud",
@@ -34,7 +34,7 @@
       0.0
     ]
   ],
-  "total_cost": -1.9900000000000013e-08,
+  "total_cost": -2.090000000000001e-08,
   "usage": {
     "EC2": "0 / 750 hrs",
     "S3": "0.00 / 5 GB",
