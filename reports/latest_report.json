@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-12-24 04:25:52",
-  "total_cost": -1.8500000000000013e-08,
+  "timestamp": "2025-12-24 05:14:54",
+  "total_cost": -1.9900000000000013e-08,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
@@ -12,11 +12,11 @@
     ],
     [
       "EC2 - Other",
-      1.772e-07
+      1.758e-07
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
-      0.0
+      -0.0
     ],
     [
       "Amazon Simple Storage Service",
