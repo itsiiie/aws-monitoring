@@ -10,15 +10,15 @@
     ],
     [
       "EC2 - Other",
-      1.748e-07
+      1.737e-07
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
-      0.0
+      -0.0
     ],
     [
       "Amazon Simple Storage Service",
-      -0.0
+      0.0
     ],
     [
       "Amazon Virtual Private Cloud",
@@ -33,5 +33,5 @@
       0.0
     ]
   ],
-  "total_cost": -2.090000000000001e-08
+  "total_cost": -2.2000000000000012e-08
 }
