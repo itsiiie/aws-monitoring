@@ -2,7 +2,7 @@
   "cost_data": [
     [
       "AWS Cost Explorer",
-      -0.0
+      0.0
     ],
     [
       "AWS Data Transfer",
@@ -10,7 +10,7 @@
     ],
     [
       "EC2 - Other",
-      1.699e-07
+      1.687e-07
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
@@ -33,5 +33,5 @@
       0.0
     ]
   ],
-  "total_cost": -2.5800000000000006e-08
+  "total_cost": -2.7000000000000017e-08
 }
