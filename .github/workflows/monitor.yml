@@ -3,7 +3,7 @@ name: AWS Free Tier Monitor
 on:
   push:                     # ✅ Trigger on every push
   schedule:                 # ✅ Scheduled trigger every hour
-    - cron: "0 * * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:        # ✅ Manual run from GitHub UI
 
 permissions:
