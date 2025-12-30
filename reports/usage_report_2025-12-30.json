@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-30 11:09:37",
+  "date": "2025-12-30 12:19:10",
   "cost_data": [
     [
       "AWS Cost Explorer",
@@ -7,19 +7,43 @@
     ],
     [
       "AWS Data Transfer",
-      -1.957e-07
+      -2.049e-07
+    ],
+    [
+      "AWS Glue",
+      0.0
+    ],
+    [
+      "AWS Key Management Service",
+      0.0
+    ],
+    [
+      "AWS Secrets Manager",
+      0.0
     ],
     [
       "EC2 - Other",
-      1.626e-07
+      1.613e-07
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
       0.0
     ],
     [
+      "Amazon Location Service",
+      0.0
+    ],
+    [
+      "Amazon Simple Notification Service",
+      0.0
+    ],
+    [
+      "Amazon Simple Queue Service",
+      0.0
+    ],
+    [
       "Amazon Simple Storage Service",
-      -0.0
+      9.1e-09
     ],
     [
       "Amazon Virtual Private Cloud",
@@ -34,7 +58,7 @@
       0.0
     ]
   ],
-  "total_cost": -3.3100000000000025e-08,
+  "total_cost": -3.449999999999999e-08,
   "usage": {
     "EC2": "0 / 750 hrs",
     "S3": "0.00 / 5 GB",
