@@ -1,7 +1,11 @@
 {
-  "timestamp": "2026-01-02 01:58:25",
+  "timestamp": "2026-01-03 01:52:18",
   "total_cost": 0.0,
   "cost_by_service": [
+    [
+      "AWS Cost Explorer",
+      0.0
+    ],
     [
       "AWS Glue",
       0.0
