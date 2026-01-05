@@ -6,7 +6,7 @@
     ],
     [
       "AWS Data Transfer",
-      -6e-09
+      -7.8e-09
     ],
     [
       "AWS Glue",
@@ -21,8 +21,20 @@
       0.0
     ],
     [
+      "Amazon Location Service",
+      0.0
+    ],
+    [
+      "Amazon Simple Notification Service",
+      0.0
+    ],
+    [
+      "Amazon Simple Queue Service",
+      0.0
+    ],
+    [
       "Amazon Simple Storage Service",
-      6e-09
+      7.8e-09
     ],
     [
       "AmazonCloudWatch",
