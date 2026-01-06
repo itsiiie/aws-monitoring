@@ -1,0 +1,16 @@
+Service,Cost ($)
+AWS Cost Explorer,0.0
+AWS Data Transfer,-4.1346e-06
+AWS Glue,0.0
+AWS Key Management Service,0.0
+AWS Secrets Manager,0.0
+EC2 - Other,4.1244e-06
+Amazon Elastic Compute Cloud - Compute,0.0
+Amazon Location Service,0.0
+Amazon Simple Notification Service,0.0
+Amazon Simple Queue Service,0.0
+Amazon Simple Storage Service,9.1e-09
+Amazon Virtual Private Cloud,0.0
+AmazonCloudWatch,0.0
+Tax,0.0
+TOTAL,-1.1000000000003424e-09

@@ -6,7 +6,7 @@
     ],
     [
       "AWS Data Transfer",
-      -7.8e-09
+      -4.1346e-06
     ],
     [
       "AWS Glue",
@@ -18,6 +18,14 @@
     ],
     [
       "AWS Secrets Manager",
+      0.0
+    ],
+    [
+      "EC2 - Other",
+      4.1244e-06
+    ],
+    [
+      "Amazon Elastic Compute Cloud - Compute",
       0.0
     ],
     [
@@ -34,7 +42,11 @@
     ],
     [
       "Amazon Simple Storage Service",
-      7.8e-09
+      9.1e-09
+    ],
+    [
+      "Amazon Virtual Private Cloud",
+      0.0
     ],
     [
       "AmazonCloudWatch",
@@ -45,5 +57,5 @@
       0.0
     ]
   ],
-  "total_cost": 0.0
+  "total_cost": -1.1000000000003424e-09
 }
