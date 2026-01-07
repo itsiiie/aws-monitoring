@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-01-06 01:58:11",
-  "total_cost": -1.1000000000003424e-09,
+  "timestamp": "2026-01-07 01:58:08",
+  "total_cost": -5.800000000000484e-09,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
@@ -8,7 +8,7 @@
     ],
     [
       "AWS Data Transfer",
-      -4.1346e-06
+      -1.19855e-05
     ],
     [
       "AWS Glue",
@@ -24,7 +24,7 @@
     ],
     [
       "EC2 - Other",
-      4.1244e-06
+      1.19706e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
