@@ -18,15 +18,15 @@
     ],
     [
       "AWS Secrets Manager",
-      0.0
+      -0.0
     ],
     [
       "EC2 - Other",
-      1.24609e-05
+      1.24579e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
-      -0.0
+      0.0
     ],
     [
       "Amazon Location Service",
@@ -57,5 +57,5 @@
       0.0
     ]
   ],
-  "total_cost": -2.3800000000000987e-08
+  "total_cost": -2.680000000000079e-08
 }

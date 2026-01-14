@@ -1,7 +1,6 @@
 {
-  "timestamp": "2026-01-14 02:03:10",
-  "total_cost": -2.680000000000079e-08,
-  "cost_by_service": [
+  "date": "2026-01-14 02:03:10",
+  "cost_data": [
     [
       "AWS Cost Explorer",
       0.0
@@ -59,7 +58,8 @@
       0.0
     ]
   ],
-  "usage_data": {
+  "total_cost": -2.680000000000079e-08,
+  "usage": {
     "EC2": "0 / 750 hrs",
     "S3": "0.00 / 5 GB",
     "Lambda": "0.0 / 400,000 GB-sec",
