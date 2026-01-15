@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-01-14 02:03:10",
-  "total_cost": -2.680000000000079e-08,
+  "timestamp": "2026-01-15 01:58:02",
+  "total_cost": -2.990000000000081e-08,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
-      0.0
+      -0.0
     ],
     [
       "AWS Data Transfer",
@@ -20,11 +20,11 @@
     ],
     [
       "AWS Secrets Manager",
-      -0.0
+      0.0
     ],
     [
       "EC2 - Other",
-      1.24579e-05
+      1.24548e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
@@ -48,7 +48,7 @@
     ],
     [
       "Amazon Virtual Private Cloud",
-      0.0
+      -0.0
     ],
     [
       "AmazonCloudWatch",
