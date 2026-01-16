@@ -2,11 +2,11 @@
   "cost_data": [
     [
       "AWS Cost Explorer",
-      -0.0
+      0.0
     ],
     [
       "AWS Data Transfer",
-      -1.24938e-05
+      -1.24952e-05
     ],
     [
       "AWS Glue",
@@ -22,7 +22,7 @@
     ],
     [
       "EC2 - Other",
-      1.24548e-05
+      1.24531e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
@@ -42,7 +42,7 @@
     ],
     [
       "Amazon Simple Storage Service",
-      9.1e-09
+      1.04e-08
     ],
     [
       "Amazon Virtual Private Cloud",
@@ -57,5 +57,5 @@
       0.0
     ]
   ],
-  "total_cost": -2.990000000000081e-08
+  "total_cost": -3.170000000000083e-08
 }
