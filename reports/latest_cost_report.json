@@ -22,7 +22,7 @@
     ],
     [
       "EC2 - Other",
-      1.24455e-05
+      1.24424e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
@@ -30,7 +30,7 @@
     ],
     [
       "Amazon Location Service",
-      0.0
+      -0.0
     ],
     [
       "Amazon Simple Notification Service",
@@ -57,5 +57,5 @@
       0.0
     ]
   ],
-  "total_cost": -3.930000000000056e-08
+  "total_cost": -4.240000000000058e-08
 }
