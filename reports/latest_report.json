@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-01-20 01:59:52",
-  "total_cost": -4.390000000000048e-08,
+  "timestamp": "2026-01-21 02:02:40",
+  "total_cost": -4.860000000000062e-08,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
@@ -24,7 +24,7 @@
     ],
     [
       "EC2 - Other",
-      1.24409e-05
+      1.24362e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
@@ -32,7 +32,7 @@
     ],
     [
       "Amazon Location Service",
-      0.0
+      -0.0
     ],
     [
       "Amazon Simple Notification Service",
