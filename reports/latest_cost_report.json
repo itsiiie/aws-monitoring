@@ -1,12 +1,16 @@
 {
   "cost_data": [
     [
+      "AWS CloudShell",
+      0.0
+    ],
+    [
       "AWS Cost Explorer",
       0.0
     ],
     [
       "AWS Data Transfer",
-      -1.24952e-05
+      -3.06885e-05
     ],
     [
       "AWS Glue",
@@ -22,7 +26,7 @@
     ],
     [
       "EC2 - Other",
-      1.24331e-05
+      3.06228e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
@@ -46,7 +50,7 @@
     ],
     [
       "Amazon Virtual Private Cloud",
-      0.0
+      -0.0
     ],
     [
       "AmazonCloudWatch",
@@ -57,5 +61,5 @@
       0.0
     ]
   ],
-  "total_cost": -5.170000000000064e-08
+  "total_cost": -5.530000000000176e-08
 }

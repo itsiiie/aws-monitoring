@@ -1,7 +1,6 @@
 {
-  "timestamp": "2026-01-23 01:59:23",
-  "total_cost": -5.530000000000176e-08,
-  "cost_by_service": [
+  "date": "2026-01-23 01:59:23",
+  "cost_data": [
     [
       "AWS CloudShell",
       0.0
@@ -63,7 +62,8 @@
       0.0
     ]
   ],
-  "usage_data": {
+  "total_cost": -5.530000000000176e-08,
+  "usage": {
     "EC2": "0 / 750 hrs",
     "S3": "0.00 / 5 GB",
     "Lambda": "0.0 / 400,000 GB-sec",
