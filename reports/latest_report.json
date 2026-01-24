@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-01-23 01:59:23",
-  "total_cost": -5.530000000000176e-08,
+  "timestamp": "2026-01-24 01:56:00",
+  "total_cost": -6.160000000000489e-08,
   "cost_by_service": [
     [
       "AWS CloudShell",
@@ -12,7 +12,7 @@
     ],
     [
       "AWS Data Transfer",
-      -3.06885e-05
+      -3.26012e-05
     ],
     [
       "AWS Glue",
@@ -28,11 +28,11 @@
     ],
     [
       "EC2 - Other",
-      3.06228e-05
+      3.25248e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
-      0.0
+      -0.0
     ],
     [
       "Amazon Location Service",
@@ -48,11 +48,11 @@
     ],
     [
       "Amazon Simple Storage Service",
-      1.04e-08
+      1.48e-08
     ],
     [
       "Amazon Virtual Private Cloud",
-      -0.0
+      0.0
     ],
     [
       "AmazonCloudWatch",
