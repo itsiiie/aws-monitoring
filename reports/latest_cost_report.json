@@ -10,7 +10,7 @@
     ],
     [
       "AWS Data Transfer",
-      -3.26012e-05
+      -5.31258e-05
     ],
     [
       "AWS Glue",
@@ -26,15 +26,15 @@
     ],
     [
       "EC2 - Other",
-      3.25248e-05
+      5.30409e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
-      -0.0
+      0.0
     ],
     [
       "Amazon Location Service",
-      0.0
+      -0.0
     ],
     [
       "Amazon Simple Notification Service",
@@ -46,7 +46,7 @@
     ],
     [
       "Amazon Simple Storage Service",
-      1.48e-08
+      1.64e-08
     ],
     [
       "Amazon Virtual Private Cloud",
@@ -61,5 +61,5 @@
       0.0
     ]
   ],
-  "total_cost": -6.160000000000489e-08
+  "total_cost": -6.849999999999642e-08
 }
