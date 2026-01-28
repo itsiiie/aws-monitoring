@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-01-27 02:06:15",
-  "total_cost": -8.230000000000636e-08,
+  "timestamp": "2026-01-28 02:02:16",
+  "total_cost": -8.659999999999546e-08,
   "cost_by_service": [
     [
       "AWS CloudShell",
@@ -12,7 +12,7 @@
     ],
     [
       "AWS Data Transfer",
-      -5.62861e-05
+      -5.65097e-05
     ],
     [
       "AWS Glue",
@@ -24,15 +24,15 @@
     ],
     [
       "AWS Secrets Manager",
-      -0.0
+      0.0
     ],
     [
       "EC2 - Other",
-      5.61874e-05
+      5.64067e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
-      0.0
+      -0.0
     ],
     [
       "Amazon Location Service",
