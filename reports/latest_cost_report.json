@@ -10,7 +10,7 @@
     ],
     [
       "AWS Data Transfer",
-      -5.65097e-05
+      -5.84539e-05
     ],
     [
       "AWS Glue",
@@ -26,11 +26,11 @@
     ],
     [
       "EC2 - Other",
-      5.64067e-05
+      5.83428e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
-      -0.0
+      0.0
     ],
     [
       "Amazon Location Service",
@@ -61,5 +61,5 @@
       0.0
     ]
   ],
-  "total_cost": -8.659999999999546e-08
+  "total_cost": -9.469999999999966e-08
 }
