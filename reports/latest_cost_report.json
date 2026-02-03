@@ -1,8 +1,16 @@
 {
   "cost_data": [
     [
+      "AWS Cost Explorer",
+      0.0
+    ],
+    [
+      "AWS Glue",
+      0.0
+    ],
+    [
       "EC2 - Other",
-      8e-10
+      1.16e-08
     ],
     [
       "Amazon Simple Storage Service",
@@ -21,5 +29,5 @@
       0.0
     ]
   ],
-  "total_cost": 8e-10
+  "total_cost": 1.16e-08
 }
