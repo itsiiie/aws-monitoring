@@ -10,7 +10,7 @@
     ],
     [
       "EC2 - Other",
-      1.16e-08
+      2.29e-08
     ],
     [
       "Amazon Simple Storage Service",
@@ -29,5 +29,5 @@
       0.0
     ]
   ],
-  "total_cost": 1.16e-08
+  "total_cost": 2.29e-08
 }
