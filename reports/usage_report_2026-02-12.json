@@ -1,4 +1,5 @@
 {
+  "date": "2026-02-12 02:34:48",
   "cost_data": [
     [
       "AWS Cost Explorer",
@@ -29,5 +30,12 @@
       0.0
     ]
   ],
-  "total_cost": 9.08e-08
+  "total_cost": 9.08e-08,
+  "usage": {
+    "EC2": "0 / 750 hrs",
+    "S3": "0.00 / 5 GB",
+    "Lambda": "0.0 / 400,000 GB-sec",
+    "RDS": "0 / 750 hrs"
+  },
+  "alerts": []
 }
