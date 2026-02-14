@@ -9,8 +9,12 @@
       0.0
     ],
     [
-      "EC2 - Other",
-      1.039e-07
+      "AWS Key Management Service",
+      0.0
+    ],
+    [
+      "Amazon Relational Database Service",
+      1e-09
     ],
     [
       "Amazon Simple Storage Service",
@@ -29,5 +33,5 @@
       0.0
     ]
   ],
-  "total_cost": 1.039e-07
+  "total_cost": 1e-09
 }
