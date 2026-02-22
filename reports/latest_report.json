@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-02-21 02:21:04",
-  "total_cost": 1.752e-07,
+  "timestamp": "2026-02-22 02:32:09",
+  "total_cost": 1.846e-07,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
@@ -20,11 +20,11 @@
     ],
     [
       "EC2 - Other",
-      1.755e-07
+      1.845e-07
     ],
     [
       "Amazon Relational Database Service",
-      -3e-10
+      1e-10
     ],
     [
       "Amazon Simple Storage Service",
