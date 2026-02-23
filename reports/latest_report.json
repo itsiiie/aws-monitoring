@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-02-22 02:32:09",
-  "total_cost": 1.846e-07,
+  "timestamp": "2026-02-23 02:32:47",
+  "total_cost": 1.928e-07,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
-      0.0
+      -0.0
     ],
     [
       "AWS Data Transfer",
-      -1.6e-09
+      -3.4e-09
     ],
     [
       "AWS Glue",
@@ -20,15 +20,15 @@
     ],
     [
       "EC2 - Other",
-      1.845e-07
+      1.931e-07
     ],
     [
       "Amazon Relational Database Service",
-      1e-10
+      -3e-10
     ],
     [
       "Amazon Simple Storage Service",
-      1.6e-09
+      3.4e-09
     ],
     [
       "Amazon Virtual Private Cloud",
