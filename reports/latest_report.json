@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-02-27 02:25:15",
-  "total_cost": 2.2389999999999999e-07,
+  "timestamp": "2026-02-28 02:08:10",
+  "total_cost": 2.3250000000000002e-07,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
-      0.0
+      -0.0
     ],
     [
       "AWS Data Transfer",
@@ -20,11 +20,11 @@
     ],
     [
       "EC2 - Other",
-      2.258e-07
+      2.348e-07
     ],
     [
       "Amazon Relational Database Service",
-      -1.9e-09
+      -2.3e-09
     ],
     [
       "Amazon Simple Storage Service",
