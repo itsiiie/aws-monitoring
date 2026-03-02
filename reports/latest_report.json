@@ -1,7 +1,32 @@
 {
-  "timestamp": "2026-03-01 02:38:47",
-  "total_cost": 0.0,
-  "cost_by_service": [],
+  "timestamp": "2026-03-02 02:27:53",
+  "total_cost": -1.5e-09,
+  "cost_by_service": [
+    [
+      "AWS Glue",
+      0.0
+    ],
+    [
+      "EC2 - Other",
+      -1.5e-09
+    ],
+    [
+      "Amazon Simple Storage Service",
+      0.0
+    ],
+    [
+      "Amazon Virtual Private Cloud",
+      0.0
+    ],
+    [
+      "AmazonCloudWatch",
+      0.0
+    ],
+    [
+      "Tax",
+      0.0
+    ]
+  ],
   "usage_data": {
     "EC2": "0 / 750 hrs",
     "S3": "0.00 / 5 GB",
