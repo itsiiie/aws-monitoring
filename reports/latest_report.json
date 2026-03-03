@@ -1,14 +1,22 @@
 {
-  "timestamp": "2026-03-02 02:27:53",
-  "total_cost": -1.5e-09,
+  "timestamp": "2026-03-03 02:30:33",
+  "total_cost": -6.6e-09,
   "cost_by_service": [
+    [
+      "AWS Cost Explorer",
+      0.0
+    ],
     [
       "AWS Glue",
       0.0
     ],
     [
       "EC2 - Other",
-      -1.5e-09
+      -6.1e-09
+    ],
+    [
+      "Amazon Relational Database Service",
+      -5e-10
     ],
     [
       "Amazon Simple Storage Service",
