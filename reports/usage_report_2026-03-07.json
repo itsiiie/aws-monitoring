@@ -1,7 +1,6 @@
 {
-  "timestamp": "2026-03-07 02:11:28",
-  "total_cost": -3.599999999999945e-08,
-  "cost_by_service": [
+  "date": "2026-03-07 02:11:28",
+  "cost_data": [
     [
       "AWS CloudFormation",
       0.0
@@ -55,7 +54,8 @@
       0.0
     ]
   ],
-  "usage_data": {
+  "total_cost": -3.599999999999945e-08,
+  "usage": {
     "EC2": "0 / 750 hrs",
     "S3": "0.00 / 5 GB",
     "Lambda": "0.0 / 400,000 GB-sec",

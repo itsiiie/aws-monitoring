@@ -1,8 +1,16 @@
 {
   "cost_data": [
     [
+      "AWS CloudFormation",
+      0.0
+    ],
+    [
       "AWS Cost Explorer",
       0.0
+    ],
+    [
+      "AWS Data Transfer",
+      -1.94145e-05
     ],
     [
       "AWS Glue",
@@ -10,11 +18,23 @@
     ],
     [
       "EC2 - Other",
-      -2.72e-08
+      1.89991e-05
+    ],
+    [
+      "Amazon Elastic Compute Cloud - Compute",
+      0.0
+    ],
+    [
+      "Amazon Elastic Container Service for Kubernetes",
+      0.0
+    ],
+    [
+      "Amazon Elastic Load Balancing",
+      3.819e-07
     ],
     [
       "Amazon Relational Database Service",
-      -2e-09
+      -2.5e-09
     ],
     [
       "Amazon Simple Storage Service",
@@ -33,5 +53,5 @@
       0.0
     ]
   ],
-  "total_cost": -2.92e-08
+  "total_cost": -3.599999999999945e-08
 }

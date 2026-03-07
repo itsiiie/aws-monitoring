@@ -1,0 +1,15 @@
+Service,Cost ($)
+AWS CloudFormation,0.0
+AWS Cost Explorer,0.0
+AWS Data Transfer,-1.94145e-05
+AWS Glue,0.0
+EC2 - Other,1.89991e-05
+Amazon Elastic Compute Cloud - Compute,0.0
+Amazon Elastic Container Service for Kubernetes,0.0
+Amazon Elastic Load Balancing,3.819e-07
+Amazon Relational Database Service,-2.5e-09
+Amazon Simple Storage Service,0.0
+Amazon Virtual Private Cloud,0.0
+AmazonCloudWatch,0.0
+Tax,0.0
+TOTAL,-3.599999999999945e-08
