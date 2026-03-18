@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-17 02:28:06",
-  "total_cost": -9.909999999999821e-08,
+  "timestamp": "2026-03-18 02:33:41",
+  "total_cost": -1.084999999999974e-07,
   "cost_by_service": [
     [
       "AWS CloudFormation",
@@ -20,7 +20,7 @@
     ],
     [
       "EC2 - Other",
-      1.8941e-05
+      1.89321e-05
     ],
     [
       "Amazon Elastic Compute Cloud - Compute",
@@ -36,7 +36,7 @@
     ],
     [
       "Amazon Relational Database Service",
-      -7.5e-09
+      -8e-09
     ],
     [
       "Amazon Simple Storage Service",
