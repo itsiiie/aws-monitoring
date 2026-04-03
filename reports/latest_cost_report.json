@@ -1,4 +1,33 @@
 {
-  "cost_data": [],
-  "total_cost": 0.0
+  "cost_data": [
+    [
+      "AWS Glue",
+      0.0
+    ],
+    [
+      "Amazon EC2 Container Registry (ECR)",
+      0.0
+    ],
+    [
+      "EC2 - Other",
+      8e-10
+    ],
+    [
+      "Amazon Simple Storage Service",
+      0.0
+    ],
+    [
+      "Amazon Virtual Private Cloud",
+      0.0
+    ],
+    [
+      "AmazonCloudWatch",
+      0.0
+    ],
+    [
+      "Tax",
+      0.0
+    ]
+  ],
+  "total_cost": 8e-10
 }
