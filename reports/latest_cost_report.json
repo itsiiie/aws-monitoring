@@ -1,6 +1,10 @@
 {
   "cost_data": [
     [
+      "AWS Cost Explorer",
+      0.0
+    ],
+    [
       "AWS Glue",
       0.0
     ],
@@ -10,6 +14,10 @@
     ],
     [
       "EC2 - Other",
+      8.1e-09
+    ],
+    [
+      "Amazon Relational Database Service",
       8e-10
     ],
     [
@@ -29,5 +37,5 @@
       0.0
     ]
   ],
-  "total_cost": 8e-10
+  "total_cost": 8.9e-09
 }
