@@ -1,0 +1,13 @@
+Service,Cost ($)
+AWS Cost Explorer,-0.0
+AWS Data Transfer,-4.32116e-05
+AWS Glue,0.0
+Amazon EC2 Container Registry (ECR),0.0
+EC2 - Other,4.32476e-05
+Amazon Elastic Compute Cloud - Compute,0.0
+Amazon Relational Database Service,6e-09
+Amazon Simple Storage Service,3.4e-09
+Amazon Virtual Private Cloud,0.0
+AmazonCloudWatch,0.0
+Tax,0.0
+TOTAL,4.54000000000044e-08
