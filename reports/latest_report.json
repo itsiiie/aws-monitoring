@@ -1,7 +1,32 @@
 {
-  "timestamp": "2026-05-01 03:41:18",
-  "total_cost": 0.0,
-  "cost_by_service": [],
+  "timestamp": "2026-05-02 02:57:25",
+  "total_cost": 1e-09,
+  "cost_by_service": [
+    [
+      "AWS Glue",
+      0.0
+    ],
+    [
+      "Amazon EC2 Container Registry (ECR)",
+      2e-09
+    ],
+    [
+      "EC2 - Other",
+      -1e-09
+    ],
+    [
+      "Amazon Simple Storage Service",
+      0.0
+    ],
+    [
+      "AmazonCloudWatch",
+      0.0
+    ],
+    [
+      "Tax",
+      0.0
+    ]
+  ],
   "usage_data": {
     "EC2": "0 / 750 hrs",
     "S3": "0.00 / 5 GB",
