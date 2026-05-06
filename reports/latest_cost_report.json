@@ -14,15 +14,15 @@
     ],
     [
       "Amazon EC2 Container Registry (ECR)",
-      1.7e-08
+      2.24e-08
     ],
     [
       "EC2 - Other",
-      -1.07e-08
+      -1.41e-08
     ],
     [
       "Amazon Relational Database Service",
-      -1.5e-09
+      -2e-09
     ],
     [
       "Amazon Simple Storage Service",
@@ -37,5 +37,5 @@
       0.0
     ]
   ],
-  "total_cost": 4.799999999999999e-09
+  "total_cost": 6.299999999999998e-09
 }
