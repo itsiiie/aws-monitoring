@@ -6,7 +6,7 @@
     ],
     [
       "AWS Data Transfer",
-      -1.6e-09
+      -3.4e-09
     ],
     [
       "AWS Glue",
@@ -14,19 +14,19 @@
     ],
     [
       "Amazon EC2 Container Registry (ECR)",
-      3.64e-08
+      4.16e-08
     ],
     [
       "EC2 - Other",
-      -2.3e-08
+      -2.63e-08
     ],
     [
       "Amazon Relational Database Service",
-      -3.5e-09
+      -4e-09
     ],
     [
       "Amazon Simple Storage Service",
-      1.6e-09
+      3.4e-09
     ],
     [
       "AmazonCloudWatch",
@@ -37,5 +37,5 @@
       0.0
     ]
   ],
-  "total_cost": 9.9e-09
+  "total_cost": 1.1300000000000005e-08
 }
