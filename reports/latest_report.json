@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-05-26 03:53:12",
-  "total_cost": 2.989999999999999e-08,
+  "timestamp": "2026-05-27 04:06:46",
+  "total_cost": 3.109999999999999e-08,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
-      0.0
+      -0.0
     ],
     [
       "AWS Data Transfer",
@@ -16,15 +16,15 @@
     ],
     [
       "Amazon EC2 Container Registry (ECR)",
-      1.178e-07
+      1.226e-07
     ],
     [
       "EC2 - Other",
-      -7.59e-08
+      -7.9e-08
     ],
     [
       "Amazon Relational Database Service",
-      -1.2e-08
+      -1.25e-08
     ],
     [
       "Amazon Simple Storage Service",
