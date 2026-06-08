@@ -18,11 +18,11 @@
     ],
     [
       "EC2 - Other",
-      8.7e-09
+      1.03e-08
     ],
     [
       "Amazon Relational Database Service",
-      2e-09
+      2.4e-09
     ],
     [
       "Amazon Simple Storage Service",
@@ -37,5 +37,5 @@
       0.0
     ]
   ],
-  "total_cost": 1.07e-08
+  "total_cost": 1.27e-08
 }
