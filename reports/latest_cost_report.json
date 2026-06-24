@@ -6,7 +6,7 @@
     ],
     [
       "AWS Data Transfer",
-      -1.8e-09
+      -3.4e-09
     ],
     [
       "AWS Glue",
@@ -18,15 +18,15 @@
     ],
     [
       "EC2 - Other",
-      3.44e-08
+      3.62e-08
     ],
     [
       "Amazon Relational Database Service",
-      8.4e-09
+      8.8e-09
     ],
     [
       "Amazon Simple Storage Service",
-      1.8e-09
+      3.4e-09
     ],
     [
       "AmazonCloudWatch",
@@ -37,5 +37,5 @@
       0.0
     ]
   ],
-  "total_cost": 4.28e-08
+  "total_cost": 4.5e-08
 }
