@@ -2,7 +2,7 @@
   "cost_data": [
     [
       "AWS Cost Explorer",
-      0.0
+      -0.0
     ],
     [
       "AWS Data Transfer",
@@ -18,11 +18,11 @@
     ],
     [
       "EC2 - Other",
-      3.62e-08
+      3.76e-08
     ],
     [
       "Amazon Relational Database Service",
-      8.8e-09
+      9.2e-09
     ],
     [
       "Amazon Simple Storage Service",
@@ -37,5 +37,5 @@
       0.0
     ]
   ],
-  "total_cost": 4.5e-08
+  "total_cost": 4.68e-08
 }
