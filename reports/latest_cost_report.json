@@ -1,41 +1,4 @@
 {
-  "cost_data": [
-    [
-      "AWS Cost Explorer",
-      0.0
-    ],
-    [
-      "AWS Data Transfer",
-      -5.2e-09
-    ],
-    [
-      "AWS Glue",
-      0.0
-    ],
-    [
-      "Amazon EC2 Container Registry (ECR)",
-      5e-10
-    ],
-    [
-      "EC2 - Other",
-      4.57e-08
-    ],
-    [
-      "Amazon Relational Database Service",
-      1.12e-08
-    ],
-    [
-      "Amazon Simple Storage Service",
-      5.2e-09
-    ],
-    [
-      "AmazonCloudWatch",
-      0.0
-    ],
-    [
-      "Tax",
-      0.0
-    ]
-  ],
-  "total_cost": 5.74e-08
+  "cost_data": [],
+  "total_cost": 0.0
 }
