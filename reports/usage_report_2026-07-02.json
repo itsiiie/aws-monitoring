@@ -1,7 +1,6 @@
 {
-  "timestamp": "2026-07-02 03:51:43",
-  "total_cost": 7.999999999999999e-10,
-  "cost_by_service": [
+  "date": "2026-07-02 03:51:43",
+  "cost_data": [
     [
       "AWS Glue",
       0.0
@@ -27,7 +26,8 @@
       0.0
     ]
   ],
-  "usage_data": {
+  "total_cost": 7.999999999999999e-10,
+  "usage": {
     "EC2": "0 / 750 hrs",
     "S3": "0.00 / 5 GB",
     "Lambda": "0.0 / 400,000 GB-sec",
