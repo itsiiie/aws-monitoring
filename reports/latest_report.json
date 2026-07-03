@@ -1,18 +1,26 @@
 {
-  "timestamp": "2026-07-02 03:51:43",
-  "total_cost": 7.999999999999999e-10,
+  "timestamp": "2026-07-03 03:33:19",
+  "total_cost": 2.3000000000000003e-09,
   "cost_by_service": [
+    [
+      "AWS Cost Explorer",
+      0.0
+    ],
     [
       "AWS Glue",
       0.0
     ],
     [
       "Amazon EC2 Container Registry (ECR)",
-      1.4e-09
+      7.4e-09
     ],
     [
       "EC2 - Other",
-      -6e-10
+      -4.6e-09
+    ],
+    [
+      "Amazon Relational Database Service",
+      -5e-10
     ],
     [
       "Amazon Simple Storage Service",
