@@ -2,7 +2,7 @@
   "cost_data": [
     [
       "AWS Cost Explorer",
-      -0.0
+      0.0
     ],
     [
       "AWS Data Transfer",
@@ -14,15 +14,15 @@
     ],
     [
       "Amazon EC2 Container Registry (ECR)",
-      9.38e-08
+      9.86e-08
     ],
     [
       "EC2 - Other",
-      -6.02e-08
+      -6.34e-08
     ],
     [
       "Amazon Relational Database Service",
-      -9.5e-09
+      -1e-08
     ],
     [
       "Amazon Simple Storage Service",
@@ -37,5 +37,5 @@
       0.0
     ]
   ],
-  "total_cost": 2.410000000000001e-08
+  "total_cost": 2.5199999999999997e-08
 }
