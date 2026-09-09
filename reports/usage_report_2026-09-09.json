@@ -1,4 +1,5 @@
 {
+  "date": "2026-09-09 03:46:30",
   "cost_data": [
     [
       "AWS Cost Explorer",
@@ -33,5 +34,14 @@
       0.05
     ]
   ],
-  "total_cost": 0.34933537729999997
+  "total_cost": 0.34933537729999997,
+  "usage": {
+    "EC2": "0 / 750 hrs",
+    "S3": "0.00 / 5 GB",
+    "Lambda": "0.0 / 400,000 GB-sec",
+    "RDS": "0 / 750 hrs"
+  },
+  "alerts": [
+    "\u26a0\ufe0f AWS billing exceeded threshold! Current: $0.35, Threshold: $0.01"
+  ]
 }
