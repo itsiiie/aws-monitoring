@@ -1,0 +1,10 @@
+Service,Cost ($)
+AWS Cost Explorer,0.15
+AWS Glue,0.0
+Amazon EC2 Container Registry (ECR),0.010557328
+EC2 - Other,0.3789866542
+Amazon Relational Database Service,0.0893872065
+Amazon Simple Storage Service,0.0001150034
+AmazonCloudWatch,0.0
+Tax,0.11
+TOTAL,0.7390461921
