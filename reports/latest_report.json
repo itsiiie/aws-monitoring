@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-24 03:48:27",
-  "total_cost": 1.0909874547,
+  "timestamp": "2026-09-25 04:03:34",
+  "total_cost": 1.131945473,
   "cost_by_service": [
     [
       "AWS Cost Explorer",
-      0.22
+      0.23
     ],
     [
       "AWS Glue",
@@ -12,19 +12,19 @@
     ],
     [
       "Amazon EC2 Container Registry (ECR)",
-      0.0154429
+      0.016116772
     ],
     [
       "EC2 - Other",
-      0.5542933151
+      0.5786133143
     ],
     [
       "Amazon Relational Database Service",
-      0.1311012362
+      0.1370603833
     ],
     [
       "Amazon Simple Storage Service",
-      0.0001500034
+      0.0001550034
     ],
     [
       "AmazonCloudWatch",
@@ -42,6 +42,6 @@
     "RDS": "0 / 750 hrs"
   },
   "alerts": [
-    "\u26a0\ufe0f AWS billing exceeded threshold! Current: $1.09, Threshold: $0.01"
+    "\u26a0\ufe0f AWS billing exceeded threshold! Current: $1.13, Threshold: $0.01"
   ]
 }
