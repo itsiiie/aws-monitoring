@@ -1,0 +1,8 @@
+Service,Cost ($)
+AWS Glue,0.0
+Amazon EC2 Container Registry (ECR),0.0005977884
+EC2 - Other,0.019612904
+Amazon Simple Storage Service,1.00016e-05
+AmazonCloudWatch,0.0
+Tax,0.0
+TOTAL,0.020220694
