@@ -2,7 +2,7 @@
   "cost_data": [
     [
       "AWS Cost Explorer",
-      0.05
+      0.06
     ],
     [
       "AWS Glue",
@@ -10,19 +10,19 @@
     ],
     [
       "Amazon EC2 Container Registry (ECR)",
-      0.0038584524
+      0.0042660354
     ],
     [
       "EC2 - Other",
-      0.1363096828
+      0.1529806512
     ],
     [
       "Amazon Relational Database Service",
-      0.028834583
+      0.0346014996
     ],
     [
       "Amazon Simple Storage Service",
-      5.50034e-05
+      6.00034e-05
     ],
     [
       "AmazonCloudWatch",
@@ -33,5 +33,5 @@
       0.04
     ]
   ],
-  "total_cost": 0.2590577216
+  "total_cost": 0.29190818960000003
 }
