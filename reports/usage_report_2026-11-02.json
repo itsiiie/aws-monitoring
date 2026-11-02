@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-02 05:01:49",
+  "cost_data": [
+    [
+      "AWS Glue",
+      0.0
+    ],
+    [
+      "Amazon EC2 Container Registry (ECR)",
+      0.00028078
+    ],
+    [
+      "EC2 - Other",
+      0.0081066659
+    ],
+    [
+      "Amazon Simple Storage Service",
+      6.5e-05
+    ],
+    [
+      "AmazonCloudWatch",
+      0.0
+    ],
+    [
+      "Tax",
+      0.0
+    ]
+  ],
+  "total_cost": 0.008452445900000001,
+  "usage": {
+    "EC2": "0 / 750 hrs",
+    "S3": "0.00 / 5 GB",
+    "Lambda": "0.0 / 400,000 GB-sec",
+    "RDS": "0 / 750 hrs"
+  },
+  "alerts": []
+}
